@@ -1,0 +1,101 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4b8590;
+    display: inline-block;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu a.active {
+    color: #4b8590;    ; 
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+nav a.active {
+    color: #4b8590;
+}
+main {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 50px;               
+    margin: 60px auto;       
+    width: fit-content;       
+}
+.profile-card {
+    background-color: #d6d8d7;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
+}
+.profile-card img.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.social a {
+    margin: 5px;
+    text-decoration: none;
+}
+.intro {
+    padding-left: 50px;
+}
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #d6d8d7;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #d6d8d7;
+}
+.btn{
+    background-color: #4b8590;
+    color: white;
+}
+.social a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+}
+
+.social a img:hover {
+    transform: scale(1.1);
+}
+
